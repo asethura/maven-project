@@ -1,5 +1,5 @@
 pipeline{
 triggers {
-  pollsSCM(* * * * *)
+  pollSCM('* * * * *')
 }
 }
