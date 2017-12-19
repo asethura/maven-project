@@ -14,6 +14,6 @@ triggers {
           archiveArtifacts artifacts: '**/target/*.war'
           }
       }
-}
-}
+    }
+  }
 }
