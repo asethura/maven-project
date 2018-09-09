@@ -1,10 +1,6 @@
 pipeline{
  agent {
-      docker {
- label 'docker-node'
- image 'maven'
- args '-v /tmp:/tmp -p 80:80'
- }
+      
  }
  environment {
  GIT_COMMITTER_NAME = 'jenkins'
