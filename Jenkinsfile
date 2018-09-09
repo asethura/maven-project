@@ -1,7 +1,5 @@
 pipeline{
- agent {
-      
- }
+ 
  environment {
  GIT_COMMITTER_NAME = 'jenkins'
  }
