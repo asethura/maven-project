@@ -15,9 +15,7 @@ pipeline{
  stages {
  stage('Build') {
  steps {
-    echo scm.getUserRemoteConfigs()
-
-     sh 'mvn clean install'
+    sh 'mvn clean install'
  }
  }
  stage('Archive') {
